@@ -24,4 +24,6 @@ def send_response():
 
 
 if __name__ == '__main__':
-    print(format_response(make_request("Dubai")))
+    # print(format_response(make_request("Dubai")))
+    for item in make_request("London"):
+        print(item)
